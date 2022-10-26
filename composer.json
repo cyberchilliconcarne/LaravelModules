@@ -22,7 +22,8 @@
         "laraveldaily/laravel-charts": "^0.1.24",
         "nwidart/laravel-modules": "^8.2",
         "spatie/laravel-medialibrary": "^9.8",
-        "yajra/laravel-datatables-oracle": "^9.18"
+        "yajra/laravel-datatables-oracle": "^9.18",
+        "zircote/swagger-php": "^4.4"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
