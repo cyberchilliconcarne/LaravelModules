@@ -22,6 +22,7 @@
         "laraveldaily/laravel-charts": "^0.1.24",
         "nwidart/laravel-modules": "^8.2",
         "spatie/laravel-medialibrary": "^9.8",
+        "swagger-api/swagger-ui": "^4.15",
         "yajra/laravel-datatables-oracle": "^9.18",
         "zircote/swagger-php": "^4.4"
     },
