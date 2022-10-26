@@ -1,0 +1,25 @@
+openapi: 3.0.0
+info:
+  title: home-iot-api
+  description: The API for the EatBacon IOT project
+  version: 1.0.0-oas3
+servers:
+- url: http://localhost:8000
+  description: SwaggerHub API Auto Mocking
+paths:
+  /users/{userId}:
+    get:
+      summary: Returns a user by ID
+      parameters:
+      - name: userId
+        in: path
+        description: The ID of the user to return
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        "200":
+          description: OK
+components: {}
