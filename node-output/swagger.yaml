@@ -6,6 +6,8 @@ info:
 servers:
 - url: http://localhost:8000
   description: SwaggerHub API Auto Mocking
+tags:
+- name: New Tag 1
 paths:
   /users/{userId}:
     get:
